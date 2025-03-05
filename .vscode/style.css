@@ -76,7 +76,8 @@ ul {
   border: 0;
   position: absolute;
   z-index: 1;
-  left: 0;
+  left:0;
+  animation: slide-back 0.2s;
   top: 50%; /*tras de volta o elemento para dentro da caixa mas agora centralizado*/
   transform: translateY(-50%); /* joga o elemento para cima*/
 }
@@ -93,10 +94,12 @@ ul {
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
 }
 
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
+}
 /*fim do switch*/
 
 #box1 {
@@ -193,4 +196,23 @@ h5 {
   --bg-url: url(./assets/bg-desktop-light);
 }
 
+}
+
+
+
+/*animations*/
+@keyframes slide-in {
+  from{left:0;}
+  to{left:50%;}
+}
+
+
+
+
+@keyframes slide-back{
+  from{
+    left:50%;
+    to{
+      left:0;
+    }
 }
