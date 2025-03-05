@@ -26,7 +26,7 @@
 body {
   background-image: var(--bg-url);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 body * {
   font-family: "Open Sans", serif;
@@ -35,13 +35,19 @@ body * {
 
 #Container {
   width: 100%;
-  margin: 56px auto 0px;
+  margin: 56px auto 0;
   padding: 0 24px;
- 
- max-width: 588px;
- 
-background-size: cover
+  max-width: 588px;
+  min-height: 100vh; /* Garante que o container tenha altura mínima de 100vh, mas pode crescer */
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Garante que o conteúdo comece no topo */
 }
+
 
 #Profile {
   text-align: center;
