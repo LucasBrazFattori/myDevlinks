@@ -32,11 +32,13 @@ body * {
   font-family: "Open Sans", serif;
   color: var(--text-color);
 }
+
 #Container {
   width: 100%;
   margin: 56px auto 0px;
   padding: 0 24px;
-   max-width: 588px;
+  max-width: 588px;
+
 }
 
 #Profile {
@@ -181,4 +183,14 @@ h5 {
   justify-content: center;
   padding: 16px;
   border-radius: 50%;
+}
+
+@media (min-width: 700px){
+:root{
+  --bg-url: url(./assets/bg-desktop.jpg);
+}
+.light{
+  --bg-url: url(./assets/bg-desktop-light);
+}
+
 }
