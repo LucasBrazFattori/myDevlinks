@@ -113,7 +113,7 @@ ul {
 
 #box1 {
   border: 1px solid;
-  border-color: --border-color;
+  border-color: var(--border-color);
   margin-bottom: 7%;
   text-align: center;
   padding: 10px;
@@ -123,7 +123,7 @@ ul {
 
 #box2 {
   border: 1px solid;
-  border-color: --border-color;
+  border-color: var(--border-color);
   margin-bottom: 7%;
   text-align: center;
   padding: 10px;
@@ -132,7 +132,7 @@ ul {
 
 #box3 {
   border: 1px solid;
-  border-color: --border-color;
+  border-color: var(--border-color);
   margin-bottom: 7%;
   text-align: center;
   padding: 10px;
@@ -141,7 +141,7 @@ ul {
 
 #box4 {
   border: 1px solid;
-  border-color: --border-color;
+  border-color: var(--border-color);
   margin-bottom: 7%;
   text-align: center;
   padding: 10px;
