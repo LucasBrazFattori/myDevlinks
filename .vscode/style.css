@@ -21,7 +21,6 @@
   --surface-color-hover: rgba(0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url("./assets/sun.svg");
-
 }
 
 body {
@@ -34,17 +33,17 @@ body * {
   color: var(--text-color);
 }
 #Container {
-  width: 370px;
+  width: 100%;
   margin: 56px auto 0px;
   height: 490px;
   padding: 0 24px;
+  max-width: 588px;
 }
 
 #Profile {
   text-align: center;
   padding: 24px;
   border-color: var(--border-color);
-
 }
 
 #Profile p {
@@ -55,9 +54,7 @@ body * {
 
 #Profile img {
   width: 112px;
- 
 }
-  
 
 ul {
   list-style-type: none;
