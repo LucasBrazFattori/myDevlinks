@@ -38,7 +38,7 @@ body * {
   margin: 56px auto 0;
   padding: 0 24px;
   max-width: 588px;
-  min-height: 100vh; /* Garante que o container tenha altura mínima de 100vh, mas pode crescer */
+  height: 100vh; /* Garante que o container tenha altura mínima de 100vh, mas pode crescer */
   background-image: var(--bg-url);
   background-size: cover;
   background-position: center;
@@ -46,6 +46,7 @@ body * {
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Garante que o conteúdo comece no topo */
+
 }
 
 
