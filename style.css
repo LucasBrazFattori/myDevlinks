@@ -35,17 +35,12 @@ body * {
 }
 #Container {
   width: 100%;
-  margin: 56px auto 0px;
+  height: 100%; /* Ajuste para garantir que ocupe toda a altura da tela */
+  margin: 0; /* Remover margem para evitar espaços extras */
   padding: 0 24px;
   max-width: 588px;
 }
-/* Ajuste para telas pequenas */
-@media (max-width: 600px) {
-  #Container {
-    margin: 0;
-    padding: 0;
-  }
-}
+
 
 #Profile {
   text-align: center;
