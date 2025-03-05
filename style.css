@@ -27,9 +27,7 @@ body {
   background-image: var(--bg-url);
   background-size: cover;
   background-repeat: no-repeat;
-  background: linear-gradient;
-  height: 100%;
-  margin: 0;
+ 
 }
 body * {
   font-family: "Open Sans", serif;
@@ -41,7 +39,7 @@ body * {
   margin: 56px auto 0;
   padding: 0 24px;
   max-width: 588px;
-  height: 100vh; /* Garante que o container tenha altura mínima de 100vh, mas pode crescer */
+  height: 100vh bottom; /* Garante que o container tenha altura mínima de 100vh, mas pode crescer */
   background-image: var(--bg-url);
   background-size: cover;
   background-position: center;
