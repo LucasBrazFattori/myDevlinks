@@ -27,6 +27,9 @@ body {
   background-image: var(--bg-url);
   background-size: cover;
   background-repeat: no-repeat;
+  background: linear-gradient;
+  height: 100%;
+  margin: 0;
 }
 body * {
   font-family: "Open Sans", serif;
@@ -119,11 +122,6 @@ ul {
   padding: 10px;
   border-radius: 10px;
   margin-top: 7%;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
 }
 
 #box2 {
